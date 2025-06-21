@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  color: white;
+  padding: 100px 0;
+}
+
+#about img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+#feature i {
+  font-size: 3rem;
+  color: #4e54c8;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+#review footer {
+  background-color: #2a2a2a;
+  color: rgb(189, 189, 189);
+  padding: 40px 0;
+}
+
+#enroll {
+  background-color: #f0f8ff;
+}
+
+.join-section {
+  background-color: #fff3cd;
+  padding: 60px 0;
+}
+.join-section h2 {
+  font-weight: bold;
+}
+.join-section .btn {
+  background-color: #4e54c8;
+  color: white;
+  border: none;
+}
+.join-section .btn:hover {
+  background-color: #3a3fc8;
+}
+
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 70px;
+  z-index: 9999;
+}
+
+.floating-buttons img {
+  width: 100%;
+}
+
+.floating-buttons .btn {
+  border-radius: 100%;
+  padding: 10px 15px;
+  font-weight: bold;
+}
